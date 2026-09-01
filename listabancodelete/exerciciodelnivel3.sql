@@ -17,4 +17,4 @@ WHERE `cpfCliente` = '222.222.222-22' #validado
 
 DELETE FROM `projeto`
 WHERE `dtFim` < CURDATE()
-AND `cpfCliente` <> '111.111.111-11' #validado   #essa parte peguei do cht pqnão entendi 
+AND `cpfCliente` <> '111.111.111-11' #validado   #essa parte fui obrigada a pesquisar

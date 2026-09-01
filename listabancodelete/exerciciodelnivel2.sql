@@ -12,11 +12,9 @@ Nível Intermediário
 
 #INICIO
 
-
-
 UPDATE `projeto`
-SET `descricao` = CONCAT('PROJETO LEGADO', `descricao`)
-WHERE `dtSolicitada` < '2025-09-15' #validado
+SET `descricao` = CONCAT('PROJETO LEGADO - ', `descricao`)
+WHERE `dtSolicitacao` < '2025-09-15' #validado
 
 
 UPDATE `projEmp`
